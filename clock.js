@@ -18,5 +18,5 @@
     hourhand.setAttribute("transform", `rotate(${hourangle},50,50)`);
 
     // Run this function again in 10 seconds
-    setTimeout(updateClock, 10000);
+    setTimeout(updateClock, 1000);
 }()); // Note immediate invocation of the function here.
